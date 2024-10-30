@@ -9,11 +9,11 @@ Aiming to enable iPhones that do not support Apple Intelligence to use AI functi
 > 目前只完成搜尋架構（未優化）
 
 ## 目錄 / Catalogue
-	•[專案概述 / Project Overview]
-	•[安裝 / Installation]
-	•[使用方法 / Usage]
-	•[貢獻 / Contribution]
-	•[授權 / License]
+	•專案概述 / Project Overview
+	•安裝 / Installation
+	•使用方法 / Usage
+	•貢獻 / Contribution
+	•授權 / License
 
 ## 專案概述 / Project Overview
 
@@ -23,14 +23,16 @@ Aiming to enable iPhones that do not support Apple Intelligence to use AI functi
 
 ## 安裝 / Installation
 
-## 需求 / Requirements
+	
 
-### 描述此專案的系統需求，例如 Python 版本或其他相依套件。
-### Describe system requirements, such as Python version or dependencies.
+### 需求 / Requirements
 
-## 步驟 / Steps
+ 描述此專案的系統需求，例如 Python 版本或其他相依套件。
+ Describe system requirements, such as Python version or dependencies.
 
-### Clone此倉庫 / Clone this repository:
+### 步驟 / Steps
+
+Clone此倉庫 / Clone this repository:
 
 	git clone https://github.com/username/repository-name.git
 
