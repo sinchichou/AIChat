@@ -33,11 +33,11 @@ Aiming to enable iPhones that do not support Apple Intelligence to use AI functi
 
 ### Clone此倉庫 / Clone this repository:
 
-	1.	 git clone https://github.com/username/repository-name.git
+	git clone https://github.com/username/repository-name.git
 
 ### 安裝相依套件 / Install dependencies:
 
-	2.	pip install -r requirements.txt
+	pip install -r requirements.txt
 
 ###（若有其他安裝需求，請在此加入說明）/ (Add any additional setup instructions here if needed.)
 
