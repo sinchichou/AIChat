@@ -4,6 +4,9 @@
 
 Aiming to enable iPhones that do not support Apple Intelligence to use AI functions
 
+> [！WARNING]
+> 未開發完成
+
 ## 目錄 / Catalogue
 
 	•	專案概述 / Project Overview
