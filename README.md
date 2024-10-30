@@ -6,7 +6,7 @@ Aiming to enable iPhones that do not support Apple Intelligence to use AI functi
 
 > [!WARNING]
 > 未開發完成
-
+> 
 > 目前只完成
 > 	搜尋架構 (未優化)
 > 	物件移除 (未測試)
