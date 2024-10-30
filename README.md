@@ -4,6 +4,12 @@
 
 Aiming to enable iPhones that do not support Apple Intelligence to use AI functions
 
+> [!IMPORTANT]  
+> 1.支援搜尋網路  
+> 2.移除圖片雜物  
+> 3.自動建立行事曆 提醒事項  
+> 新增…
+
 > [!WARNING]
 > 未開發完成
 > 
