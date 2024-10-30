@@ -6,6 +6,7 @@ Aiming to enable iPhones that do not support Apple Intelligence to use AI functi
 
 > [!WARNING]
 > 未開發完成
+> 目前只完成搜尋架構（未優化）
 
 ## 目錄 / Catalogue
 
@@ -30,17 +31,15 @@ Describe system requirements, such as Python version or dependencies.
 
 ## 步驟 / Steps
 
-	1.	克隆此倉庫 / Clone this repository:
+### Clone此倉庫 / Clone this repository:
 
-git clone https://github.com/username/repository-name.git
+	1.	 git clone https://github.com/username/repository-name.git
 
+### 安裝相依套件 / Install dependencies:
 
-	2.	安裝相依套件 / Install dependencies:
+	2.	pip install -r requirements.txt
 
-pip install -r requirements.txt
-
-
-	3.	（若有其他安裝需求，請在此加入說明）/ (Add any additional setup instructions here if needed.)
+###（若有其他安裝需求，請在此加入說明）/ (Add any additional setup instructions here if needed.)
 
 ## 使用方法 / Usage
 
