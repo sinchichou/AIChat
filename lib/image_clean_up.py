@@ -1,7 +1,6 @@
 import cv2
 import torch
 import numpy as np
-import lama_cleaner
 from lama_cleaner.model import load_checkpoint
 from PIL import Image
 

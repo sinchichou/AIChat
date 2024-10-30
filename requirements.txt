@@ -1,0 +1,9 @@
+Groq
+BeautifulSoup4
+requests
+opencv-python
+torch
+numpy
+lama-cleaner
+Pillow
+Flask
