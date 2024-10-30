@@ -4,7 +4,7 @@
 
 Aiming to enable iPhones that do not support Apple Intelligence to use AI functions
 
-> [！WARNING]
+> [!WARNING]
 > 未開發完成
 
 ## 目錄 / Catalogue
