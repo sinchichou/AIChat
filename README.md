@@ -9,12 +9,12 @@ Aiming to enable iPhones that do not support Apple Intelligence to use AI functi
 > 目前只完成搜尋架構（未優化）
 
 ## 目錄 / Catalogue
-
-	•	專案概述 / Project Overview
-	•	安裝 / Installation
-	•	使用方法 / Usage
-	•	貢獻 / Contribution
-	•	授權 / License
+[連結文字](https://)
+	•[專案概述 / Project Overview](https://github.com/sinchichou/AIChat/edit/main/README.md#%E5%B0%88%E6%A1%88%E6%A6%82%E8%BF%B0--project-overview)
+	•[安裝 / Installation](https://github.com/sinchichou/AIChat?tab=readme-ov-file#%E5%AE%89%E8%A3%9D--installation)
+	•[使用方法 / Usage](https://github.com/sinchichou/AIChat?tab=readme-ov-file#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95--usage)
+	•[貢獻 / Contribution](https://github.com/sinchichou/AIChat?tab=readme-ov-file#%E8%B2%A2%E7%8D%BB--contribution)
+	•[授權 / License](https://github.com/sinchichou/AIChat?tab=readme-ov-file#%E6%8E%88%E6%AC%8A--license)
 
 ## 專案概述 / Project Overview
 
@@ -47,7 +47,7 @@ Aiming to enable iPhones that do not support Apple Intelligence to use AI functi
 
 ### Provide examples or commands to show how to use the project.
 
-# 範例指令 / Example command
+### 範例指令 / Example command
 	python main.py --example
 
 ## 貢獻 / Contribution
