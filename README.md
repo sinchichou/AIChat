@@ -26,8 +26,8 @@ Aiming to enable iPhones that do not support Apple Intelligence to use AI functi
 
 ## 需求 / Requirements
 
-	•	描述此專案的系統需求，例如 Python 版本或其他相依套件。
-Describe system requirements, such as Python version or dependencies.
+### 描述此專案的系統需求，例如 Python 版本或其他相依套件。
+### Describe system requirements, such as Python version or dependencies.
 
 ## 步驟 / Steps
 
@@ -43,12 +43,12 @@ Describe system requirements, such as Python version or dependencies.
 
 ## 使用方法 / Usage
 
-請在此處提供一些範例代碼或指令，以展示如何使用此專案。
+### 請在此處提供一些範例代碼或指令，以展示如何使用此專案。
 
-Provide examples or commands to show how to use the project.
+### Provide examples or commands to show how to use the project.
 
 # 範例指令 / Example command
-python main.py --example
+	python main.py --example
 
 ## 貢獻 / Contribution
 
