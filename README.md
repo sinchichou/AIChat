@@ -5,8 +5,11 @@
 Aiming to enable iPhones that do not support Apple Intelligence to use AI functions
 
 > [!WARNING]
-> 未開發完成 
-目前只完成搜尋架構（未優化）
+> 未開發完成
+
+> 目前只完成
+> 	搜尋架構 (未優化)
+> 	物件移除 (未測試)
 
 ## 目錄 / Catalogue
 	•專案概述 / Project Overview
@@ -23,7 +26,8 @@ Aiming to enable iPhones that do not support Apple Intelligence to use AI functi
 
 ## 安裝 / Installation
 
-	
+> [!NOTE]
+> 在Windows 11編寫
 
 ### 需求 / Requirements
 
@@ -46,12 +50,8 @@ Clone此倉庫 / Clone this repository:
 
 ## 使用方法 / Usage
 
-### 請在此處提供一些範例代碼或指令，以展示如何使用此專案。
-
-### Provide examples or commands to show how to use the project.
-
-### 範例指令 / Example command
-	python main.py --example
+	cd scr
+ 	python app.py
 
 ## 貢獻 / Contribution
 
