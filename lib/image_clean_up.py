@@ -1,7 +1,7 @@
 import cv2
 import torch
 import numpy as np
-from lama_cleaner.model import load_checkpoint
+from lama_cleaner import LamaCleaner
 from PIL import Image
 
 class ImageCleanUp:
@@ -20,8 +20,7 @@ class ImageCleanUp:
         回傳:
             model: 載入的 LaMa 模型
         """
-        model = load_checkpoint("path_to_lama_checkpoint.pth", self.device)
-        return model
+        return LamaCleaner.load_checkpoint("path_to_lama_checkpoint.pth", self.device)
 
     def process_image(self, image_data):
         """
@@ -54,10 +53,7 @@ class ImageCleanUp:
         # 生成遮罩
         mask = self.create_mask_from_pink()
         
-        # 進行修復
-        inpainted_result = self.inpaint(mask)
-        
-        return inpainted_result
+        return self.inpaint(mask)
 
     def create_mask_from_pink(self):
         """

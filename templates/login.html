@@ -1,0 +1,51 @@
+<style>
+    form {
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        background-color: #fff;
+    }
+
+    label {
+        display: block;
+        margin: 10px 0 5px;
+        color: #333;
+        font-size: 16px;
+    }
+
+    input {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+</style>
+
+<form method='post' action='/login'>
+    <label for="username">用戶名稱:</label>
+    <input type='text' name='username' id='username' placeholder='請輸入用戶名稱' />
+    <label for="password">密碼:</label>
+    <input type='text' name='password' id='password' placeholder='請輸入用戶名稱密碼' />
+    <br/>
+    <button type='submit'>提交</button>
+</form>

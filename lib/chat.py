@@ -1,5 +1,6 @@
 import os
 import requests
+from contextlib import suppress
 from bs4 import BeautifulSoup
 from groq import Groq
 
@@ -39,7 +40,7 @@ class AIChatLibrary:
             messages=[
                 {
                     "role": "user",
-                    "content": "1. Create a problem-solving process 2. Develop a solution plan" + input_text,
+                    "content": "1. Create a problem-solving process 2. Develop a solution plan" + {input_text},
                 }
             ],
             model="gemma-7b-it",
@@ -89,7 +90,7 @@ class AIChatLibrary:
             messages=[
                 {
                     "role": "user",
-                    "content": "Give me keywords to search on google '" + input_text + "'",
+                    "content": "Give me keywords to search on google '" + {input_text} + "'",
                 }
             ],
             max_tokens=8192,
@@ -109,9 +110,9 @@ class AIChatLibrary:
                     script.decompose()
                 webpage_text = soup.get_text(separator="\n").strip()
                 webpage_text_list.append(webpage_text)
-            except Exception as e:
-                pass
-        return webpage_text_list
+            except Exception:
+                with suppress(Exception):
+                    pass  # Silence any exceptions
 
     def whether_making_todo(self, input_text):
         whether_making_todo = self.client.chat.completions.create(
@@ -129,27 +130,3 @@ class AIChatLibrary:
     def log(self, reply):
         with open('example.txt', 'w', encoding='utf-8') as file:
             file.write(reply + "\n\n")
-
-# 使用方法示例
-# if __name__ == "__main__":
-#     ai_chat = AIChatLibrary()
-#     while True:
-#         input_text = input("你的問題?")
-#         using_todo = ai_chat.whether_making_todo(input_text)
-#         using_google = ai_chat.whether_search(input_text)
-
-#         if not using_todo:
-#             todo_sept = ai_chat.making_todo(input_text)
-#         else:
-#             todo_sept = ""
-
-#         if not using_google:
-#             search_keyword = ai_chat.google_search_keyword(input_text)
-#             text_list = ai_chat.webpage2text(search_keyword)
-#             reply = ai_chat.chat(todo_sept, input_text, text_list)
-#             ai_chat.log(reply)
-#             print(reply)  # 使用 print 代替 console.print
-#         else:
-#             reply = ai_chat.chat(todo_sept, input_text, [])
-#             ai_chat.log(reply)
-#             print(reply)  # 使用 print 代替 console.print
